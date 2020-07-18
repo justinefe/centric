@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ddd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.containr-full {
+  background-color: #e7eff0;
+  width: 380px;
+  height: 520px;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: 5px;
+  
+  #register-top {
+    height: 80px;
+    img{
+      margin-left: 15px;
+      margin-top: 15px;
+    }
+  }
+  #register-middle {
+    text-align: center;
+    height: 41px;
+    width: 380px;
+    background-color: white;
+    h5 {
+      padding-top: 12px;
+      font-size: 14px;
+      color: #555;
+    }
+  }
+  #register-bottom {
+    height: 127px;
+  }
+  #submit{
+    margin: 25px;
+    label{
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 44px;
+    }
+    button{
+      width: 330px;
+      margin-top: 15px;
+    }
+  }
+}
+.seer {
+  width: 100px;
+  height: auto;
+}
+
+button {
+  width: 350px;
+  outline: none;
+  color: white;
+  height: 43px;
+  background-color: #0d6cb4;
+  border: solid 1px #0d6cb4;
+  span {
+    font-size: 15px;
+  }
+}
+
+.contianer-half {
+  background-color: #e7eff0;
+  width: 380px;
+  height: 235px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  padding: 15px;
+}
+.contianer-middle {
+  background-color: #e6eaef;
+  width: 380px;
+  margin: auto;
+  margin-top: 70px;
+  padding: 15px;
+  border-radius: 7px;
+}
+.contianer-neutral {
+  background-color: #e7eff0;
+  width: 380px;
+  margin: auto;
+  margin-top: 5px;
+  padding: 15px;
+  border-radius: 7px;
+}
+.atm-top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5em;
+  .seer {
+    object-fit: contain;
+    height: 22px;
+  }
+
+  .atm-details {
+    text-align: right;
+    span {
+      display: block;
+    }
+  }
+}
+
+* {
+  font-family: 'Red Hat Text';
+}

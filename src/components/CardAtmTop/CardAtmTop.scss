@@ -1,0 +1,29 @@
+.atm-top {
+  .atm-details {
+    .atm-email {
+      font-weight: 500;
+      font-size: 0.9em;
+    }
+    .span-wrap-style {
+      margin-top: 0.5em;
+      display: flex;
+      justify-content: flex-end;
+      span,
+      strong {
+        margin: 0 0.1em;
+        font-size: 0.8em;
+      }
+    }
+    .fees-wrap {
+      span,
+      strong {
+        color: #999;
+      }
+    }
+    .pays-wrap {
+      strong {
+        color: purple;
+      }
+    }
+  }
+}
